@@ -1,37 +1,40 @@
 # SCADA-Based Predictive Maintenance for Wind Turbines Using the CARE Benchmark
 
-This repository contains the code used in my dissertation on **SCADA-based predictive maintenance for wind turbines** using the **CARE benchmark dataset**.
+This repository contains the **Jupyter Notebook** on **SCADA-based predictive maintenance for wind turbines** using the **CARE benchmark dataset**.
 
-The project develops and evaluates a **two-stage machine learning pipeline** for wind turbine fault detection across multiple wind farms with different turbine configurations and sensor architectures.
+The notebook includes the full workflow.
 
-## Project Overview
+## Project Summary
 
-The main goal of this work is to investigate how a predictive maintenance pipeline can be designed and evaluated rigorously across heterogeneous wind farms, and how sensor architecture affects achievable fault detection performance.
+This project investigates a **two-stage machine learning pipeline** for wind turbine predictive maintenance using SCADA data.
 
-The repository includes code for:
+The work focuses on:
 
-- **Stage 1 anomaly detection** using a denoising MLP autoencoder
-- **Stage 2 fault classification** using XGBoost
-- **Leave-One-Event-Out (LOEO)** validation
-- **Cross-farm transfer experiments**
-- **Subsystem-level feature engineering**
-- **CARE benchmark metric evaluation**
-- Supporting analysis and visualisation scripts
+- detecting abnormal turbine behaviour from normal operating data
+- classifying fault types from fault-associated patterns
+- evaluating performance across multiple wind farms
+- analysing the effect of heterogeneous sensor configurations on detection performance
 
-## Research Focus
+## Notebook Contents
 
-This dissertation investigates:
+All scripts and experiments are contained in **one Jupyter Notebook**, which includes:
 
-- whether a two-stage SCADA-based fault detection pipeline can perform competitively on the CARE benchmark
-- how subsystem-level sensor availability influences detectability
-- whether subsystem-specific modelling improves anomaly detection
-- whether cross-farm transfer can be improved using subsystem-level aggregate features and per-farm normalisation
-- the operational significance of fault periods and service-mode downtime
+1. data loading and preprocessing  
+2. sensor renaming and feature mapping  
+3. anomaly detection modelling  
+4. fault classification modelling  
+5. cross-farm transfer validation  
+6. metric calculation and visualisation  
 
 ## Dataset
 
-This work uses the **CARE benchmark dataset** introduced by Gück et al. (2024), a public multi-farm SCADA dataset containing labelled fault events and a standardised evaluation framework.
+This project uses the **CARE benchmark dataset**.
 
 > **Note:**  
 > The CARE dataset is **not included** in this repository.  
-> You must obtain access to the dataset separately and place it in the expected directory structure before running the scripts.
+> You must obtain the dataset separately and place it in the required folder structure before running the notebook.
+
+Base directory used in the notebook:
+
+```python id="1smkgv"
+D:\files\project\CARE_To_Compare
