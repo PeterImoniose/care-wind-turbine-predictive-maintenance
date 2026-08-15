@@ -56,6 +56,3 @@ Base directory used in the notebook:
 D:\files\project\CARE_To_Compare
 ```
 
-## Author
-
-Avwerosuo Peter Imoniose
