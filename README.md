@@ -1,5 +1,11 @@
 # SCADA-Based Predictive Maintenance for Wind Turbines Using the CARE Benchmark
 
+> **There is a version 2 of this project.** I rebuilt it from scratch with a stricter evaluation
+> protocol, a tested Python package and uncertainty estimates:
+> [care-wind-turbine-predictive-maintenance-v2](https://github.com/PeterImoniose/care-wind-turbine-predictive-maintenance-v2).
+> This repository is kept unchanged as the work that was submitted and graded. The v2 README explains
+> what changed and why its scores are lower.
+
 This repository contains the Jupyter Notebook behind my MSc dissertation on SCADA-based
 predictive maintenance for wind turbines, evaluated on the CARE benchmark dataset. It was
 awarded 80% for the written dissertation and 90% for the practical engineering component, and
