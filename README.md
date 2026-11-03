@@ -9,7 +9,7 @@
 This repository contains the Jupyter Notebook behind my MSc dissertation on SCADA-based
 predictive maintenance for wind turbines, evaluated on the CARE benchmark dataset. It was
 awarded 81% for the written dissertation and 90% for the practical engineering component, and
-the underlying research has been submitted for peer review at the euspen Special Interest
+the underlying research has been accepted for publication at the euspen Special Interest
 Conference on Precision Engineering for Sustainability (SIC 2026).
 
 ## Project Summary
